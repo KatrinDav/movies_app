@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  animation: showup 1s ease-out forwards;
+
+
+  @media(max-width: 751px) {
+    width: 96%;
+  }
+}
+
+@keyframes showup {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+}
+
+.error {
+  text-align: center;
+  color: red;
+}

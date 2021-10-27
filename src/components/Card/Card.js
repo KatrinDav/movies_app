@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from '../Button/Button';
 import styles from './Card.module.scss';
-import reject from '../../images/x.png';
-import accept from '../../images/checkmark.png';
+import reject from '../../icons/x.png';
+import accept from '../../icons/checkmark.png';
 
 
 const Card = ({ title, summary, rating, img, rejectFn, acceptFn, id, isAccepted }) => {
